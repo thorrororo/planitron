@@ -1,0 +1,22 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #dadada;
+}
+
+.searcher_input {
+    background-color: #dadada;
+    border: 1px solid #7bceff;
+    padding: 0.5rem;
+    max-width: 400px;
+}
+
+.searcher_label {
+    font-size: 1.2rem;
+}
+
+.searcher_hint {
+    font-size: 1.5rem;
+    color: #7bceff;
+}

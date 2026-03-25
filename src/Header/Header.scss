@@ -1,0 +1,36 @@
+.header {
+    color: #dadada;
+    border-left: 1px solid #333;
+    padding-left: 1rem;
+}
+
+.header {
+    .title {
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-size: 3rem;
+    }
+    
+    .title_container {
+        display: flex;
+        gap: 0.2rem;
+        flex-wrap: wrap;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        color: #7bceff;
+    }
+
+    .author {
+        font-size: 1rem;
+    }
+
+    .author a {
+        color: #7bceff;
+    }
+
+    .author a:hover {
+        color: #dadada;
+    }
+}
