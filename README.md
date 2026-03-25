@@ -18,6 +18,12 @@
 
 ---
 
+### Demo
+
+Link: https://planitron.vercel.app
+
+---
+
 ### Screenshots
 
 <p align="center">
