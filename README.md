@@ -1,16 +1,56 @@
-# React + Vite
+# PLANITRON
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
+  <a href="https://vitejs.dev/" target="_blank"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://sass-lang.com/" target="_blank"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+  <a href="https://opensource.org/" target="_blank"><img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge" alt="Open Source" /></a>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Overview
+**Planitron** is a sleek, React-powered interactive world explorer providing instant access to comprehensive global country data and demographics. Search through 250+ countries with real-time suggestions and explore detailed profiles.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Key Features
 
-## Expanding the ESLint configuration
+| Feature | Description |
+| :--- | :--- |
+| **Smart Search** | Autocomplete functionality with instant filtering as you type. |
+| **Visual Flags** | High-quality flag rendering via FlagCDN integration. |
+| **Deep Data** | Official names, native names, currencies, and languages. |
+| **GPS Location** | Precise coordinates, regional information, and area stats. |
+| **Responsive** | Fully optimized for mobile, tablet, and desktop screens. |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Tech Stack
+
+- **Framework:** `React.js` (Vite)
+- **Styling:** `SCSS` / `Flexbox` / `Grid`
+- **Dataset:** `world-countries` (ISO 3166-1 standard)
+- **API:** `FlagCDN` for high-quality SVG/PNG flags
+
+---
+
+### Installation & Setup
+
+Get Planitron up and running on your local machine in seconds:
+
+1. **Clone the repo**
+   ```bash
+   git clone [https://github.com/thorrororo/planitron.git](https://github.com/thorrororo/planitron.git)
+   cd planitron
+
+2. **Install dependencies**
+   ```Bash
+   npm install
+
+3. **Launch the development server**
+   ```bash
+   npm run dev
+   
+*The app will be available at `http://localhost:5173`*
