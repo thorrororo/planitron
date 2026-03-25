@@ -1,4 +1,6 @@
-# PLANITRON
+<p align="center">
+  <img src="./public/favicon.png" alt="Planitron Logo" width="150" />
+</p>
 
 <p align="center">
   <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
@@ -11,7 +13,17 @@
 ---
 
 ### Overview
+
 **Planitron** is a sleek, React-powered interactive world explorer providing instant access to comprehensive global country data and demographics. Search through 250+ countries with real-time suggestions and explore detailed profiles.
+
+---
+
+### Screenshots
+
+<p align="center">
+  <img src="./src/assets/ss1.jpeg" alt="Planitron Search View" width="45%" />
+  <img src="./src/assets/ss2.jpeg" alt="Planitron Details View" width="45%" />
+</p>
 
 ---
 
