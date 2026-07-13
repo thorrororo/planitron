@@ -8,7 +8,6 @@ function Header() {
                     <h1 className="title">Planitron</h1>
                     <p className="author">by <a href="https://thorrow.ct8.pl">thorrow</a></p>
                 </div>
-                <p className="subtitle">World Statistics</p>
             </div>
         </div>
     )
